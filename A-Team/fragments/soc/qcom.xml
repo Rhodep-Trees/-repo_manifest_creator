@@ -10,7 +10,7 @@
     <project path="vendor/qcom/opensource/audio/sm8250" name="platform_vendor_qcom_opensource_audio_sm8250"
         remote="moto-common" revision="master" />
     <project path="vendor/qcom/opensource/audio/sm8350" name="platform_vendor_qcom_opensource_audio_sm8350"
-        remote="moto-common" revision="master" />
+        remote="rhodep" revision="a14" />
     <project path="vendor/qcom/opensource/display/sm8150" name="platform_vendor_qcom_opensource_display_sm8150"
         remote="moto-common" revision="master" />
     <project path="vendor/qcom/opensource/display/sm8250" name="platform_vendor_qcom_opensource_display_sm8250"
@@ -52,8 +52,6 @@
     <project path="vendor/qcom/opensource/fwk-detect" name="platform_vendor_qcom_opensource_fwk-detect"
         remote="moto-common" revision="master" />
     <project path="vendor/qcom/opensource/dataservices" name="platform_vendor_qcom_opensource_dataservices"
-        remote="moto-common" revision="master" />
-    <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="platform_vendor_qcom_opensource_data-ipa-cfg-mgr"
         remote="moto-common" revision="master" />
     <project path="vendor/qcom/opensource/data-ipa-cfg-mgr-legacy" name="platform_vendor_qcom_opensource_data-ipa-cfg-mgr-legacy-um"
         remote="moto-common" revision="master" />
