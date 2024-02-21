@@ -12,7 +12,7 @@ cd A-Team
 
 # Start Log & Run Installer Scrupt
 echo ""
-./A-Team.sh
+. A-Team.sh
 
 # Exit After Completion
-exit
+#exit

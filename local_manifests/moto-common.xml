@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote name="moto-common"
+        fetch="https://github.com/moto-common/" />
+    <remote name="aospa"
+        fetch="https://github.com/AOSPA/" />
+    <remote name="aospa-vendor"
+        fetch="https://github.com/ThankYouMario/" />
+    <remote name="moto-common-vendor"
+        fetch="https://git.libremobileos.com/electimon/" />
+    <remote name="rhodep"
+        fetch="https://github.com/Rhodep-Trees" />
+    <!-- CLO -->
+    <remote name="clo-la"
+            fetch="https://git.codelinaro.org/clo/la"
+            sync-c="true"
+            sync-tags="false" />
+
+    <!-- moto-common main tree -->
+    <include name="local_manifests/fragments/common.xml"/>
+    <!-- misc trees -->
+    <include name="local_manifests/fragments/misc.xml"/>
+    <!-- device trees -->
+    <include name="local_manifests/fragments/sm4350.xml"/>
+    <!-- soc specific trees -->
+    <include name="local_manifests/fragments/soc/qcom.xml"/>
+</manifest>
